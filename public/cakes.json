@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1, "name": "Durian",
+      "price": "70000",
+      "description": "Durian terbaik",
+      "image": "image/Duriancakes.png" 
+    },
+    { 
+      "id": 2,
+      "name": "Red Velvet",
+      "price": "60000",
+      "description": "Red velvet lezat",
+      "image": "image/Redvelvetcakes.jpg" 
+      },
+    {
+      "id": 3, 
+      "name": "Cupcakes", 
+      "price": "80000", 
+      "description": "2 pcs Cupcakes", 
+      "image": "image/cupcakesstrawberry.jpg" 
+  },
+    { 
+      "id": 4, 
+      "name": "Clasic Floral Cake", 
+      "price": "1200000", 
+      "description": "Untuk Pengantin", 
+      "image": "image/pernikahancake.webp" 
+  },
+  {
+    "id": 5, "name": "Vanila",
+    "price": "70000",
+    "description": "Rasa Vanila enak",
+    "image": "image/Vanilecake.webp" 
+  },
+  { 
+    "id": 6,
+    "name": "Happy Birthday",
+    "price": "120000",
+    "description": "untuk ulang tahun",
+    "image": "image/birthday cakes.jpg" 
+    },
+  {
+    "id": 7, 
+    "name": "Tiramisu", 
+    "price": "80000", 
+    "description": "Tiramisu creamy", 
+    "image": "image/Tiramiscakes.jpg" 
+},
+  { 
+    "id": 8, 
+    "name": "Cheese Cake",
+    "price": "90000", 
+    "description": "one of the best", 
+    "image": "image/cheesecakestrawberry.jpg" 
+}
+  ]
+  

@@ -1,0 +1,197 @@
+/* STYLE MENU START */
+
+ /* STYLE FORM KUE */
+.cake-form {
+    padding: 20px;
+  }
+  
+  .cake-form h3 {
+    
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #ff69b4; /* Warna pink untuk judul */
+  }
+  
+  .cake-form input,
+  .cake-form textarea {
+    
+    width: 50%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .cake-form input:focus,
+  .cake-form textarea:focus {
+    border-color: #ff1493; /* Warna pink gelap saat fokus */
+    outline: none;
+  }
+  
+  .cake-form textarea {
+    resize: horizontal;
+    height: 100px;
+  }
+  
+  .cake-form input[type="number"] {
+    -moz-appearance: textfield; /* Menghapus spinner angka di input number */
+  }
+  
+  .cake-form button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    width: 50%;
+  }
+  
+  .cake-form button:hover {
+    background-color: #ff1493;
+  }
+  
+  .cake-form button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Gaya untuk input dan textarea placeholder */
+  .cake-form input::placeholder,
+  .cake-form textarea::placeholder {
+    color: #ff69b4;
+    opacity: 0.7;
+  }
+  
+  .cake-form input[type="text"],
+  .cake-form input[type="number"] {
+    color: #333;
+  }  
+
+
+.menu-section {
+    background-color: #ffc0cb;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .menu-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .menu-item-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .btn-container {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+.btn{
+    background-color: pink;
+    color: #fff;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+  
+  .btn:hover {
+    background-color: #ff1493;
+  }
+  
+  .cart {
+    position: fixed;
+    bottom: -340px; /* Mulai di bawah layar */
+    left: 50%; /* Posisi tengah horizontal */
+    transform: translateX(-50%); /* Geser elemen kembali ke kiri sebanyak 50% dari lebar elemen */
+    width: 50%; /* Lebar cart */
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.3s ease-in-out;
+    z-index: 9999;
+    visibility: hidden; /* Menyembunyikan keranjang secara default */
+  }
+  
+  .cart.visible {
+    bottom: 0; /* Menampilkan keranjang di posisi atas */
+    visibility: visible; /* Menampilkan keranjang */
+  }
+  
+  .cart.hidden {
+    visibility: hidden; /* Menyembunyikan keranjang */
+  }
+  
+ 
+  
+  .cart h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item span {
+    font-size: 1.2rem;
+  }
+  
+  .cart-item button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item button:hover {
+    background-color: #ff1493;
+  }
+  
